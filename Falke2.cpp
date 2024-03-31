@@ -1,10 +1,6 @@
 ﻿#include <iostream>
-#include <cmath>
 #include <time.h>
-#include <ctime>
-
 using namespace std;
-
 
 inline _int64 HightTime() {
     _asm {
@@ -40,7 +36,7 @@ typedef struct _PROCESSOR_POWER_INFORMATION {
 int main()
 {
     SPEED_START_CONSOLE
-    int n = 50000000;
+    int n = 50;
     int K = 500;
     double* A = new double[n];
     double times;
