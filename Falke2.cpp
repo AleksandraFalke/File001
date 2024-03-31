@@ -36,7 +36,7 @@ typedef struct _PROCESSOR_POWER_INFORMATION {
 int main()
 {
     SPEED_START_CONSOLE
-    int n = 50;
+    int n = 50000000;
     int K = 500;
     double* A = new double[n];
     double times;
